@@ -1,3 +1,9 @@
+=begin
+1. parse shapefile into geojson file by using GDAL (ogr2ogr -f GeoJSON -t_srs EPSG:4269 [filename].geojson [filename].shp) command line
+2. use ARGV to get a file with street addresses parsed
+
+=end
+
 require 'json'
 require 'geocoder'
 
